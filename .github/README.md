@@ -18,10 +18,10 @@ Here's a brief high-level overview of the Yukki Music Bot:
 
 This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
 
-* For database, Yukki uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+* For database, Yukki uses the MongoD to [store](https://github.com/TeamYukki/YukkiMusicBot) data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
 * Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
-* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
+* The projects uses attractive images and icons which you can get in [assets](../as.
 
 For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
 
@@ -40,11 +40,8 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 > In order to avoid conflicts in your project, you must have/installed
 
-- [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
-- [Telegram Bot Token](https://t.me/botfather)
-- [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-- [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
+python.org/downloads/release/python-390/)
+- []()
 
 
 ## 🖇 Generating Pyrogram String Session
@@ -61,11 +58,7 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ```console
 shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiMusicBot
-shikhar@MacBook~ $ cd YukkiMusicBot
-shikhar@MacBook~ $ sudo bash setup
-```
-> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
-> Please input your vars correctly.
+.
 
 ```console
 shikhar@MacBook~ $ bash start
@@ -100,7 +93,7 @@ Together, we can make YukkiMusicBot **better**!
 
 ## ✍🏻 Contributing
 
-First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated*
 
 Please read [our contribution guidelines](CONTRIBUTING.md), and thank you for being involved!
 
@@ -128,10 +121,3 @@ See [LICENSE](../LICENSE) for more information.
 Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-- [CallsMusic Team](https://github.com/Callsmusic)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Charon Baglari](https://github.com/XCBv021)
-
-
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
